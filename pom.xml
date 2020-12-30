@@ -54,6 +54,13 @@
             					<format>html</format>
             					<format>xml</format>
           				</formats>
+					<check>
+					    <haltOnFailure>false</haltOnFailure>
+					    <lineRate>100</lineRate>
+					    <branchRate>100</branchRate>
+					    <totalLineRate>100</totalLineRate>
+					    <totalBranchRate>100</totalBranchRate>
+					</check>
 				</configuration>
 			</plugin>
 			<plugin>
