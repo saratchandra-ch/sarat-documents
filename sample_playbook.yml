@@ -1,0 +1,15 @@
+
+
+# target host or group
+- hosts: target_servers
+  tasks:
+  # any task name
+  - name: Test Task
+    # use file module to set the file state
+    file:
+      path: /home/cent/test.conf
+      owner: cent
+      group: cent
+      mode: 600
+
+# run Playbook
